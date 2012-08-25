@@ -1,0 +1,19 @@
+======================================================================
+
+Open source Last.FM Milestone image generation script.
+Original Source: https://github.com/MartyniP/lastfm-milestones
+ 
+Created by MartyniP.co.uk, Copyright 2012.
+
+======================================================================
+
+404_error.psd - 404 Error document
+arial.ttf - TTF Font Type
+config.php - Configuration
+example.png - Example image output
+milestones.php - Image generation script
+README.md - README file
+sql.txt - SQL dump
+web/ - Image directory
+web/404.png - Error 404 image
+web/rename_to.htaccess - Example HTACCESS file

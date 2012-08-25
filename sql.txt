@@ -1,0 +1,47 @@
+-- ======================================================================
+--
+-- Open source Last.FM Milestone image generation script.
+-- Original Source: https://github.com/MartyniP/lastfm-milestones
+-- 
+-- Created by MartyniP.co.uk, Copyright 2012.
+--
+-- ======================================================================
+
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Table structure for table `cache`
+--
+
+CREATE TABLE IF NOT EXISTS `cache` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user` text NOT NULL,
+  `number` text NOT NULL,
+  `cache_artist` text NOT NULL,
+  `cache_track` text NOT NULL,
+  `cache_date` text NOT NULL,
+  `date` text NOT NULL,
+  `expire` text NOT NULL,
+  `firstDate` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user` text NOT NULL,
+  `background` varchar(255) NOT NULL DEFAULT '{"0":"255","1":"255","2":"255"}',
+  `border` varchar(255) NOT NULL DEFAULT '{"0":"128","1":"128","2":"128"}',
+  `foreground` varchar(255) NOT NULL DEFAULT '{"0":"0","1":"0","2":"0"}',
+  `text_background` varchar(255) NOT NULL DEFAULT '{"0":"214","1":"214","2":"214"}',
+  `expire` varchar(255) NOT NULL DEFAULT '1 week',
+  `font` varchar(255) NOT NULL DEFAULT 'arial.ttf',
+  `genTime` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
