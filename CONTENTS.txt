@@ -8,9 +8,9 @@ Created by MartyniP.co.uk, Copyright 2012.
 ======================================================================
 
 404_error.psd - 404 Error document
-arial.ttf - TTF Font Type
 config.php - Configuration
 example.png - Example image output
+fonts/arial.ttf - TTF Font Face
 milestones.php - Image generation script
 README.md - README file
 sql.txt - SQL dump

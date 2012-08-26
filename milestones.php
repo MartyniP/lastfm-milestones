@@ -111,7 +111,7 @@ if ($pages < $number) {
 }
 
 // customizable variables
-$font_file      = $config['wd'].''.$glob_font;
+$font_file      = $config['font_dir'].''.$glob_font;
 //$font_file      = 'arial.ttf';
 //$font_color     = '255255255' ;
 

@@ -1,3 +1,4 @@
+
 ======================================================================
 
 Open source Last.FM Milestone image generation script.
@@ -10,21 +11,23 @@ Created by MartyniP.co.uk, Copyright 2012.
 lastfm-milestones
 =====================
 
+Version: 1.0.0
 PHP Last.FM Milestones image generator
 
 
  Requirements
 =====================
 - php
-	\- php-gd
-	\- php MySQL
+	>- php-gd
+	>- php MySQL
 - MySQL
+- Web Server
 
  Recommened
 =====================
 - phpMyAdmin
 - Extra ttf font files
-- 
+- We recommened only having web/ accessable by the web, to prevent non-command line execution which could cause heavy CPU load, and flood of requests to Last.FM API
 
 
   Installation
