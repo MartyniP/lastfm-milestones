@@ -49,7 +49,6 @@ PHP Last.FM Milestones image generator
 - Customisable font
 - Cache of API requests to reduce bandwidth and flood of Last.FM API
 - Customisable cache length, by user
-- 
 
  Tested
 =====================
