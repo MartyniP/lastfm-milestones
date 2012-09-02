@@ -8,7 +8,7 @@ Created by MartyniP.co.uk, Copyright 2012.
 
 ======================================================================
 
-lastfm-milestones
+ lastfm-milestones
 =====================
 
 Version: 1.0.0
@@ -30,7 +30,7 @@ PHP Last.FM Milestones image generator
 - We recommened only having web/ accessable by the web, to prevent non-command line execution which could cause heavy CPU load, and flood of requests to Last.FM API
 
 
-  Installation
+ Installation
 =====================
 
 1) Copy code from sql.txt to your MySQL database.
@@ -43,8 +43,21 @@ PHP Last.FM Milestones image generator
 	Note: This task will run twice every hour
 7) (Optional) Change 404_error.psd to create your own custom error message.
 
+ Features
+=====================
+- Customisable colours for background, border, text background and text colour.
+- Customisable font
+- Cache of API requests to reduce bandwidth and flood of Last.FM API
+- Customisable cache length, by user
+- 
 
  Tested
 =====================
 Working - Debian 6.0 (2.6.32-5-686)
 Working - Ubuntu 10.04.4 LTS (2.6.9-39)
+
+License
+=====================
+Creative Commons Attribution 3.0 Unported License 
+(http://creativecommons.org/licenses/by/3.0/deed.en_GB)
+
